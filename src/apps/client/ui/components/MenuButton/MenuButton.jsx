@@ -201,7 +201,7 @@ class MenuButton extends Component {
                         {user
                             ? <div className={styles.contentContainer}>
                                 <div className={styles.contentItem}>
-                                    <a target="_blank" href="https://https://fin-standart.ru">
+                                    <a target="_blank" href="https://fin-standart.ru">
                                         <div className={styles.contentItemText}>
                                             <div className={styles.iconContainer}>
                                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -277,7 +277,7 @@ class MenuButton extends Component {
                             </div>
                             : <div className={styles.contentContainer}>
                                 <div className={styles.contentItem}>
-                                    <a target="_blank" href="https://https://fin-standart.ru/">
+                                    <a target="_blank" href="https://fin-standart.ru/">
                                         <div className={styles.contentItemText}>
                                             <div className={styles.iconContainer}>
                                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
