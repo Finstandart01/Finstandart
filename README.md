@@ -66,3 +66,4 @@
 1. npm i -g yarn  
 ### Pm2
 1. npm i -g pm2
+# Finstandart
