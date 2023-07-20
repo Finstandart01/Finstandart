@@ -39,7 +39,7 @@
     max-height: 56px;
 }
 }
-.logo {width: 90px;}
+.logo {width: 120px;}
 .logo {
 @media(max-width: 1024px) {
     display: none;
