@@ -7,7 +7,7 @@ export const SERVER_ERROR_STATUS_CODE = 500;
 export const MONGODB_DUPLICATE_CODE = 11000;
 export const APP_FORM_FILE_FIELD_NAME_REGEX = /app-form-file-/g;
 
-export const DOMAIN = 'https://trade.fin-standart.ru';
+export const DOMAIN = 'trade.fin-standart.ru';
 
 export const DATABASE_URL = 'mongodb://localhost/pl-finance';
 
