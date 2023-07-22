@@ -4,7 +4,7 @@ import { TOKEN_LOCAL_STORAGE_NAME } from '../constants/constants';
 import EventEmitter from 'eventemitter3';
 import { WS_MESSAGES_PORT } from '../../../../server/constants/constants';
 
-const WEBSOCKET_URL = process.env.NODE_ENV === 'production' ? `wss://https://trade.fin-standart.ru/:${WS_MESSAGES_PORT}` : `ws://localhost:${WS_MESSAGES_PORT}`;
+const WEBSOCKET_URL = process.env.NODE_ENV === 'production' ? `wss://trade.fin-standart.ru/:${WS_MESSAGES_PORT}` : `ws://localhost:${WS_MESSAGES_PORT}`;
 
 class MessageWebsocketController {
     events = new EventEmitter();
